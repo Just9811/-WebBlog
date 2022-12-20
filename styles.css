@@ -1,0 +1,239 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+*{
+    font-family: 'montserrat';
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de la page */ 
+header.header {
+    display: flex;;
+    align-items: center;
+    
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../Images/364167.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 100px 50px;
+
+}
+
+.big-title {
+    color: dodgerblue;
+    font-size: 50px;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.small-title {
+    color: rgb(157, 71, 249);
+    text-align: center;
+    padding: 20px 50px;
+
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+    margin-left: 30px;
+
+}
+   
+nav.nav li {
+    color: white;
+    
+}
+
+header.haut {
+    display:inline-flex;
+    justify-content:space-evenly 100px;
+    margin: 20px;
+    align-items: center;
+    
+
+}
+
+.contact-haut {
+    display: flex;
+    position:absolute;
+    right: 10px;
+    top: 40px;
+    
+}
+
+.logo-haut1 {
+    width: 30px;
+    list-style: none;
+
+}
+
+.logo-haut2 {
+    width: 30px;
+    list-style: none;
+
+}
+
+.logo-haut3 {
+    width: 30px;
+    list-style: none;
+
+}
+
+.logo-haut4 {
+    width: 33px;
+    list-style: none;
+
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    
+}
+
+.services-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Logo1 {
+    width: 60px;
+    list-style: none;
+}
+
+.Logo2 {
+    width: 60px;
+    list-style: none;
+}
+
+.Logo3 {
+    width: 60px;
+    list-style: none;
+}
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best sells */
+
+.bests-items {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 20px;    
+    position: relative;
+    font-weight: 50px;
+    
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color:royalblue;
+    width: 40px;
+    height: 3px;
+    bottom: 0;
+    
+}
+
+.ph-info{
+    font-size: 20px;
+    font-weight: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.contact {
+    font-size: 20px;
+    position: relative;
+    font-weight: 50px
+    
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    background-color:royalblue;
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+}
+
+.logo-contactx {
+    display:inline-flex;
+    justify-content:space-evenly 100px;
+    margin: 20px;
+    align-items: center;
+}
+
+.logo-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Logo-contact1 {
+    width: 40px;
+    list-style: none;
+}
+
+.Logo-contact2 {
+    width: 40px;
+    list-style: none;
+}
+
+.Logo-contact3 {
+    width: 40px;
+    list-style: none;
+}
+
+.Logo-contact4 {
+    width: 44px;
+    list-style: none;
+}
+
+footer {
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
